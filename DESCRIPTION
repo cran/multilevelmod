@@ -1,6 +1,6 @@
 Package: multilevelmod
 Title: Model Wrappers for Multi-Level Models
-Version: 0.2.0
+Version: 1.0.0
 Authors@R: c(
     person("Max", "Kuhn", , "max@rstudio.com", role = c("aut"),
            comment = c(ORCID = "0000-0003-2402-136X")),
@@ -16,21 +16,21 @@ Description: Bindings for hierarchical regression models for use with the
 License: MIT + file LICENSE
 URL: https://github.com/tidymodels/multilevelmod,
         http://multilevelmod.tidymodels.org/
-Depends: parsnip (>= 0.2.0), R (>= 2.10)
+Depends: parsnip (>= 1.0.0), R (>= 2.10)
 Imports: dplyr, lme4, purrr, rlang, tibble, withr
-Suggests: covr, gee, knitr, nlme, rmarkdown, spelling, testthat,
-        tidymodels
+Suggests: covr, gee, ggplot2, knitr, nlme, rmarkdown, spelling,
+        testthat, tidymodels
 VignetteBuilder: knitr
 Config/Needs/website: tidymodels/tidymodels, tidyverse/tidytemplate
 Encoding: UTF-8
 Language: en-US
 LazyData: true
-RoxygenNote: 7.1.2.9000
+RoxygenNote: 7.2.0
 NeedsCompilation: no
-Packaged: 2022-05-03 06:58:11 UTC; hannah
+Packaged: 2022-06-17 11:38:17 UTC; hannah
 Author: Max Kuhn [aut] (<https://orcid.org/0000-0003-2402-136X>),
   Hannah Frick [aut, cre] (<https://orcid.org/0000-0002-6049-5258>),
   RStudio [cph, fnd]
 Maintainer: Hannah Frick <hannah@rstudio.com>
 Repository: CRAN
-Date/Publication: 2022-05-03 23:00:02 UTC
+Date/Publication: 2022-06-17 12:00:02 UTC
